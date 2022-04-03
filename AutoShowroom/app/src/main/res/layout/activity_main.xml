@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/back">
+
+    <Button
+        android:id="@+id/btn_kayit"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rounded"
+        android:fontFamily="@font/balsamiq_sans"
+        android:text="Araç Ekle"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_tum"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="124dp"
+        android:background="@drawable/btn_rounded"
+        android:layout_height="wrap_content"
+        android:text="Tüm Araçlar"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_ara"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_rounded"
+        android:text="Araç Ara"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>
